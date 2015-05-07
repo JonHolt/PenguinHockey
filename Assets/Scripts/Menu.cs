@@ -34,6 +34,16 @@ public class Menu : MonoBehaviour {
         }
 	}
     
+    public void SetOnline()
+    {
+        PlayerPrefs.SetString("net", "online");
+    }
+    
+    public void SetLocal()
+    {
+        PlayerPrefs.SetString("net", "offline");
+    }
+
     public void StartGame(int numPlayers)
     {
         PlayerPrefs.SetInt("numPlayers", numPlayers);
