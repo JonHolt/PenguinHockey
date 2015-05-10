@@ -34,14 +34,14 @@ public class Menu : MonoBehaviour {
         }
 	}
     
-    public void SetOnline()
+    public void SetMultiplayerType(string type)
     {
-        PlayerPrefs.SetString("net", "online");
+        PlayerPrefs.SetString("multiplayerType", type);
     }
-    
-    public void SetLocal()
+
+    public void SetOnlineRole(string role)
     {
-        PlayerPrefs.SetString("net", "offline");
+        PlayerPrefs.SetString("onlineRole", role);
     }
 
     public void StartGame(int numPlayers)
