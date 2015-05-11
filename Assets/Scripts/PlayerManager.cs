@@ -192,7 +192,7 @@ public class ClientBehavior : PlayerManagerBehavior
         {
             if (element.connectedPlayers < element.playerLimit)
             {
-                Network.Connect("192.168.1.144", 41793);
+                Network.Connect(element);
                 Debug.Log("Server Found");
                 return true;
             }
