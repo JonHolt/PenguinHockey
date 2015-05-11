@@ -6,6 +6,7 @@ public class Control : MonoBehaviour {
     public float maxRotation = 100;
     public float rotAccl = 30f;
     public string PlayerNum;
+    public string ControlNum;
     public int points = 0;
 	// Use this for initialization
 	void Start () {
@@ -14,13 +15,16 @@ public class Control : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+        if (ControlNum == null || ControlNum == "")
+            return;
+
         Rigidbody body = GetComponent<Rigidbody>();
-        float horiz = Input.GetAxis("Horizontal_" + PlayerNum);
-        float vert = Input.GetAxis("Vertical_" + PlayerNum);
+        float horiz = Input.GetAxis("Horizontal_" + ControlNum);
+        float vert = Input.GetAxis("Vertical_" + ControlNum);
 
         body.AddForce(horiz * speed, 0.0f, vert * speed);
 
-        float adj = Input.GetAxis("RightH_" + PlayerNum);
+        float adj = Input.GetAxis("RightH_" + ControlNum);
 
         if (Mathf.Abs(adj) > .4)
         {

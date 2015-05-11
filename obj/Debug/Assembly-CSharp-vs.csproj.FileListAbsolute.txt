@@ -11,3 +11,17 @@ G:\Dev\Unity\Penguin Hockey\Temp\bin\Debug\Unity.CecilTools.dll
 G:\Dev\Unity\Penguin Hockey\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
 G:\Dev\Unity\Penguin Hockey\obj\Debug\Assembly-CSharp.dll
 G:\Dev\Unity\Penguin Hockey\obj\Debug\Assembly-CSharp.pdb
+G:\Dev\Unity\PenguinHockey\Temp\bin\Debug\Assembly-CSharp.dll
+G:\Dev\Unity\PenguinHockey\Temp\bin\Debug\Assembly-CSharp.pdb
+G:\Dev\Unity\PenguinHockey\Temp\bin\Debug\UnityEditor.dll
+G:\Dev\Unity\PenguinHockey\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+G:\Dev\Unity\PenguinHockey\Temp\bin\Debug\UnityEngine.dll
+G:\Dev\Unity\PenguinHockey\Temp\bin\Debug\UnityEngine.UI.dll
+G:\Dev\Unity\PenguinHockey\Temp\bin\Debug\Mono.Cecil.dll
+G:\Dev\Unity\PenguinHockey\Temp\bin\Debug\Unity.SerializationLogic.dll
+G:\Dev\Unity\PenguinHockey\Temp\bin\Debug\Unity.DataContract.dll
+G:\Dev\Unity\PenguinHockey\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+G:\Dev\Unity\PenguinHockey\Temp\bin\Debug\Unity.CecilTools.dll
+G:\Dev\Unity\PenguinHockey\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+G:\Dev\Unity\PenguinHockey\obj\Debug\Assembly-CSharp.dll
+G:\Dev\Unity\PenguinHockey\obj\Debug\Assembly-CSharp.pdb
