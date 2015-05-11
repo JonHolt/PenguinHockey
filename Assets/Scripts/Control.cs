@@ -34,37 +34,7 @@ public class Control : MonoBehaviour {
         else
             body.angularVelocity = new Vector3(0, 0, 0);
 
-        //commented out because it feels wrong
-        //float opp = Input.GetAxis("RightV_" + PlayerNum);
-        //if (Mathf.Abs(adj) > 0.5f || Mathf.Abs(opp) > 0.5f)
-        //{
-        //    //transform.LookAt(new Vector3(transform.position.x + opp, transform.position.y, transform.position.z + adj));
-        //    float tan = Mathf.Atan2(opp, adj);
-        //    float goalAngle = tan * 180 / Mathf.PI;
-        //    if (goalAngle < 0)
-        //        goalAngle += 360f;
-
-        //    float currentAngle = transform.eulerAngles.y;
-        //    float diff = goalAngle - currentAngle;
-        //    diff = mod(diff + 180, 360) - 180;
-
-        //    if ((diff < -5) && body.angularVelocity.y > -maxRotation)
-        //    {
-        //        body.AddTorque(0f, -0.2f, 0f);
-        //    }
-        //    else if ((diff > 5) && body.angularVelocity.y < maxRotation)
-        //    {
-        //        body.AddTorque(0f, 0.2f, 0f);
-        //    }
-        //    else
-        //    {
-        //        body.angularVelocity = new Vector3(0, 0, 0);
-        //    }
-        //}
-        //else
-        //{
-        //    body.angularVelocity = new Vector3(0, 0, 0);
-        //}
+        
 	}
     //float mod(float a, float n)
     //{
@@ -73,3 +43,36 @@ public class Control : MonoBehaviour {
     //    return a - q;
     //}
 }
+
+//OLD code for penguin rotation.
+//commented out because it feels wrong
+//float opp = Input.GetAxis("RightV_" + PlayerNum);
+//if (Mathf.Abs(adj) > 0.5f || Mathf.Abs(opp) > 0.5f)
+//{
+//    //transform.LookAt(new Vector3(transform.position.x + opp, transform.position.y, transform.position.z + adj));
+//    float tan = Mathf.Atan2(opp, adj);
+//    float goalAngle = tan * 180 / Mathf.PI;
+//    if (goalAngle < 0)
+//        goalAngle += 360f;
+
+//    float currentAngle = transform.eulerAngles.y;
+//    float diff = goalAngle - currentAngle;
+//    diff = mod(diff + 180, 360) - 180;
+
+//    if ((diff < -5) && body.angularVelocity.y > -maxRotation)
+//    {
+//        body.AddTorque(0f, -0.2f, 0f);
+//    }
+//    else if ((diff > 5) && body.angularVelocity.y < maxRotation)
+//    {
+//        body.AddTorque(0f, 0.2f, 0f);
+//    }
+//    else
+//    {
+//        body.angularVelocity = new Vector3(0, 0, 0);
+//    }
+//}
+//else
+//{
+//    body.angularVelocity = new Vector3(0, 0, 0);
+//}
